@@ -378,7 +378,14 @@ def chat():
         
         User's question/message: {message}
         
-        Please provide a helpful, personalized response based on their health data and question.
+        Please provide 1-3 actionable health suggestions based on their message and health data. 
+        Format your response as numbered suggestions with titles and descriptions:
+        
+        1. **Suggestion Title** - Detailed description of what to do
+        2. **Another Suggestion** - Another actionable item
+        3. **Final Suggestion** - Third suggestion if applicable
+        
+        Keep suggestions specific, actionable, and relevant to their message.
         """
         
         # Generate AI response
